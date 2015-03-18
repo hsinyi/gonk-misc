@@ -352,7 +352,7 @@ EMULATOR_FILES := \
 	$(PRODUCT_OUT)/userdata.img \
 	$(PRODUCT_OUT)/ramdisk.img
 
-ifeq ($(PLATFORM_SDK_VERSION),21)
+ifeq ($(PLATFORM_SDK_VERSION),19)
 EMULATOR_FILES += \
 	$(HOST_OUT)/bin/emulator-x86
 else
